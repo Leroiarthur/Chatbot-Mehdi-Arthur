@@ -1,4 +1,4 @@
-Beatles RAG Mistral
+**Beatles RAG Mistral**
 
 Un chatbot spécialisé Beatles qui utilise Mistral AI (embed + chat) et DataStax Astra DB pour le RAG (Retrieval Augmented Generation).
 
@@ -12,9 +12,9 @@ Un compte Mistral AI + clé API
 
 Un compte DataStax Astra DB (free tier suffit) avec un keyspace et une collection vectorisée
 
-🚀 Installation
+**🚀 Installation**
 
-Clone ce repo :
+Clone ce repo : https://github.com/Leroiarthur/Chatbot-Mehdi-Arthur.git
 
 git clone 
 cd beatles-rag-mistral
@@ -28,7 +28,7 @@ npm install
 python3.11 -m venv venv
 source venv/bin/activate
 
-🔑 Configuration des clés
+**🔑 Configuration des clés**
 
 À la racine, crée un fichier .env :
 
@@ -40,7 +40,7 @@ ASTRA_DB_COLLECTION=beatles_chunks
 
 Ajoute .env à ton .gitignore pour ne pas le committer.
 
-⚙️ Scripts
+**⚙️ Scripts**
 
 Scraper (pages Wikipédia Beatles) :
 
@@ -75,7 +75,7 @@ Build / Start :
 npm run build
 npm run start
 
-🖥️ Utilisation
+**🖥️ Utilisation**
 
 Lancer le scrapper, le splitter, l’indexation.
 
@@ -83,7 +83,7 @@ Démarrer Next.js en dev.
 
 Pose tes questions Beatles, le bot répond avec du contexte à jour.
 
-💡 Conseils
+**💡 Conseils**
 
 Garde ta DB Astra éveillée (ping périodique) pour éviter la mise en veille.
 
@@ -91,4 +91,4 @@ Teste différents modèles Mistral (open-mistral-nemo, mistral-large-2.1).
 
 Ajoute un système de streaming responses si tu veux plus de réactivité.
 
-Amuse-toi bien et rock’n’roll!
+_Amuse-toi bien et rock’n’roll!_
